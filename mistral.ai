@@ -1,0 +1,21 @@
+{
+  "url": "https://api.mistral.ai/v1/conversations",
+  "method": "POST",
+  "headers": {
+    "X-API-KEY": "{{MISTRAL_API_KEY}}",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "agent_id": "ag_019aa175139a705796942d6f34c0344e",
+    "inputs": "{{LAST_USER_MESSAGE}}"
+  },
+  "response": {
+    "type": "json",
+    "path": "outputs.0.content"
+  },
+  "uncensored": {
+    "enabled": true,
+    "override_prompt": null
+  },
+  "env_required": ["MISTRAL_API_KEY"]
+}
