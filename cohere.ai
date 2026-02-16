@@ -1,0 +1,22 @@
+{
+  "url": "https://chatannotator.com/api/v1/chat-stream",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "message": "{{LAST_USER_MESSAGE}}",
+    "bot_msg_id": "{{UUID}}",
+    "user_msg_id": "{{UUID}}",
+    "temperature": "{{TEMPERATURE}}"
+  },
+  "response": {
+    "type": "text",
+    "path": ""
+  },
+  "uncensored": {
+    "enabled": false,
+    "override_prompt": null
+  },
+  "env_required": []
+}
