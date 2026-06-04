@@ -1,0 +1,35 @@
+{
+  "url": "https://giga.chat/api/smartproxy/api/prelogin/api/v0/sessions/request",
+  "method": "POST",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0",
+    "Accept": "text/event-stream, application/json, text/event-stream",
+    "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Referer": "https://giga.chat/",
+    "Content-Type": "application/json",
+    "X-User-Timezone": "Asia/Yekaterinburg",
+    "x-request-id": "{{UUID}}",
+    "x-project-id": "019e9457-6318-76c9-a3fe-7a793b3fb2d5",
+    "x-sm-user-id": "019e9457-60a5-787f-9e13-704c71838e8e",
+    "x-Device-Id": "b63612f6-077c-df66-0048-fbbb9cadb664",
+    "Origin": "https://giga.chat",
+    "Sec-GPC": "1",
+    "Connection": "keep-alive",
+    "Cookie": "{{GIGA_CHAT_COOKIE}}",
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-origin",
+    "Priority": "u=0",
+    "TE": "trailers"
+  },
+  "body": {
+    "text": "{{LAST_USER_MESSAGE}}",
+    "agent": "cc540466-dc61-403f-8836-ab4c630ad228",
+    "model": "{{MODEL_NAME}}"
+  },
+  "response": {
+    "type": "stream",
+    "path": "delta"
+  }
+}
