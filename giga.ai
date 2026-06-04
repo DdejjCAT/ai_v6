@@ -8,7 +8,7 @@
     "Accept-Encoding": "gzip, deflate, br, zstd",
     "Referer": "https://giga.chat/",
     "Content-Type": "application/json",
-    "X-User-Timezone": "Asia/Yekaterinburg",
+    "X-User-Timezone": "Europe/Moscow",
     "x-request-id": "{{UUID}}",
     "x-project-id": "019e9457-6318-76c9-a3fe-7a793b3fb2d5",
     "x-sm-user-id": "019e9457-60a5-787f-9e13-704c71838e8e",
